@@ -1,0 +1,27 @@
+{
+  "name": "cordova-wifiinfo-plugin",
+  "version": "1.0.0",
+  "description": "Cordova WifiInfo Plugin",
+  "cordova": {
+    "id": "cordova-wifiinfo-plugin",
+    "platforms": [
+      "android"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hsccorp/cordova-wifiinfo-plugin"
+  },
+  "bugs": {
+    "url": "https://github.com/hsccorp/cordova-wifiinfo-plugin/issues"
+  },
+  "keywords": [
+    "cordova",
+    "wifiinfo",
+	"wifi",
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "author": "HSC",
+  "license": "MIT"
+}
