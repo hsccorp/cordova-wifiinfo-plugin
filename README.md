@@ -22,15 +22,15 @@ Cordova plugin based on android.net.WifiInfo, retrives wifiInfo like link speed 
  ## Response
  
  ```json
- {
-	MacAddress: "xx:xx:xx:xx:xx:xx",
-	BSSID: "xx:xx:xx:xx:xx:xx",
-	HiddenSSID: false,
-	IpAddress: "x.x.x.x",
-  LinkSpeed: 72,
-	NetworkId: 5,
-	Rssi: -40,
-	SSID: "\"xxx_xxx\""
+{
+"MacAddress" : "xx:xx:xx:xx:xx:xx",
+"BSSID" : "xx:xx:xx:xx:xx:xx",
+"HiddenSSID" : false,
+"IpAddress" : "x.x.x.x",
+"LinkSpeed" : 72,
+"NetworkId" : 5,
+"Rssi" : -40,
+"SSID" : "\"xxx_xxx\""
 }
  ```
 
