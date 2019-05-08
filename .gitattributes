@@ -1,0 +1,2 @@
+# Avoid line ending modifications over java files in order to prevent full file modifications
+*.java -crlf
