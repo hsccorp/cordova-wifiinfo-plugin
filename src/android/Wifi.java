@@ -66,7 +66,7 @@ public class Wifi extends CordovaPlugin {
 
     private JSONObject getWifiInfo() {
         WifiManager wifiManager = (WifiManager) cordova.getActivity()
-                .getSystemService(Context.WIFI_SERVICE);
+                .getApplicationContext().getSystemService(Context.WIFI_SERVICE);
         JSONObject wifiData = new JSONObject();
         WifiInfo wifi = wifiManager.getConnectionInfo();
         try {
